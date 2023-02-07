@@ -7,6 +7,7 @@ export default {
 <template>
   <header class="container text-center">
     <h1>PROGETTI</h1>
+    <router-link :to="{name:'contact-us'}"> Contatti </router-link>
   </header>
 </template>
 
